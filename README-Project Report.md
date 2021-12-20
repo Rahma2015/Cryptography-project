@@ -1,5 +1,5 @@
 # Cryptography-project
-#This (read me) file is cryptography documentation report 
+#This (read me) file is cryptography documentation report :
 
 Abstract:
 
@@ -66,11 +66,9 @@ MODE_CBC Decryption:
 The decryption is a reversed mode of encryption.Therefore,The decryption process goes as following:
 
 I-The Encrypted file will be read and divided into 128 bits(16 bytes) parts and looped over them to be appended to a list to be used in decryption which AES encryption should take 16
-
 bytes blocks only.
 
 II-Th (decrypt) function in python from the AES module is used for decryption of each part of the list.Bitwise XOring is done on each block with the IV.All decrypted parts are 
-
 appended to get the whole decrypted message.
 
 III-Time for the decryption process is calculated in python.
@@ -82,9 +80,7 @@ IV-Final thing,The decrypted message will be written in a decrypted file and sav
 Standards:
 
 AES standard is to take 128 bits of block of plaintext.There are different modes like ECB and CBC.ECB is the easiest mode to implement.CBC mode can take 3 different possible keys
-
 like 128 bits key,192  bits key and 256 bits key.In addition,CBC needs initial vector to be XORed with the plaintext.All of these modes can AES in encryption.CBC mode is more secure
-
 than ECB mode and has more operations.
 
 Output:
