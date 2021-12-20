@@ -1,7 +1,11 @@
 # Cryptography-project
 #This (read me) file is cryptography documentation report 
+
 Abstract:
-The purpose of this project is to get familiar with some Cryptographic concepts and tools.The goal is to implement block cipher modes ECB and CBC.In addition encrypt and decrypt bitmap image using AES algorithm.Finally,we evaluate our implementation of encryption and decryption of these modes by calculating time of each operation and each mode.
+
+The purpose of this project is to get familiar with some Cryptographic concepts and tools.The goal is to implement block cipher modes ECB and CBC.In addition encrypt and decrypt 
+
+bitmap image using AES algorithm.Finally,we evaluate our implementation of encryption and decryption of these modes by calculating time of each operation and each mode.
 
 Design and Implementation:
 First Mode:ECB mode:
