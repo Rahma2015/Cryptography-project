@@ -19,8 +19,8 @@ II-It is padded with zeros,divided into parts consisting of 128 bits,which is th
 
 III-Now these parts are ready for the encryption step,AES encryption python built in library will be used.Therefore:Crypto.Cipher is imported and AES.new(key, AES.MODE_ECB) function
 is used.
-AES.new(key, AES.MODE_ECB) :
 
+AES.new(key, AES.MODE_ECB) :
 This function needs a key,which will be generated randomly.It also needs the mode value which will not be given because It will be implemented.
 
 IV-Base on the mode will be chosen ,the implementation of each mode will differ so:
