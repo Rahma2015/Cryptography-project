@@ -22,7 +22,6 @@ III-Final thing,The decrypted message will be written in a decrypted file and sa
 IV:Time for the decryption process is calculated in python.
 
 
-
 Second Mode:CBC mode:
 MODE_CBC Encryption:
 I-The image is opened and read.
