@@ -18,9 +18,7 @@ I-The image is opened and read.
 II-It is padded with zeros,divided into parts consisting of 128 bits,which is the block size of the AES encryption algorithm and finally stored into a list of 16-bytes parts.
 
 III-Now these parts are ready for the encryption step,AES encryption python built in library will be used.Therefore:Crypto.Cipher is imported and AES.new(key, AES.MODE_ECB) function
-
 is used.
-
 AES.new(key, AES.MODE_ECB) :
 
 This function needs a key,which will be generated randomly.It also needs the mode value which will not be given because It will be implemented.
@@ -51,7 +49,6 @@ MODE_CBC Encryption:
 I-The image is opened and read.
 
 II-It is padded with zeros,divided into parts consisting of 16 bytes (128 bits),which is the block size of the AES encryption algorithm and finally stored into a list of 16-bytes
-
 parts.
 
 III-Now these parts are ready for the encryption step,AES.new(key, AES.MODE_CBC),this python statement is used,Here,CBC mode will be implemented not used directly.In CBC mode,Key is
